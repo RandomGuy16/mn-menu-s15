@@ -9,9 +9,9 @@ def mostrar_menu(opciones):
     print("--------------------- MENU ---------------------")
     for clave in opciones:
         print(f"[{clave}] - {opciones[clave][0]}")
-    print("-------------- FUNCIÓN DE EJEMPLO --------------")
-    print("dy/dx = y + x")
-    print("Se sabe que: y(0) = 1, x(0) = 0")
+    print("-------------- ECUACIÓN A RESOLVER -------------")
+    print("xy''' - x^2 y''' - xy'' - x^2 y' + xy = xsen(x)")
+    print("y(0) = y''(0) = 1; y'(0) = y'''(0) = 1")
     print("-------------------------------------------------")
 
 
